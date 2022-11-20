@@ -1,3 +1,12 @@
+import argparse
+import queue
+import sys
+import sounddevice as sd
+import pyttsx3
+import json
+import core
+
+
 '''
 
 # Reconhecimento de voz Via Google:
@@ -16,17 +25,11 @@ with sr.Microphone() as source:
 
 '''
 
-import argparse
-import queue
-import sys
-import sounddevice as sd
-import pyttsx3
-import json
-
 engine = pyttsx3.init()
 
 from vosk import Model, KaldiRecognizer
 
+# Reconhecimento de Fala
 def speak(text):
     #Definindo voz em PT-BR
     voices = engine.getProperty('voices')
@@ -34,6 +37,8 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
+
+# Loop do reconhecimento de fala, retirado da documentação do VOSK + adaptações
 q = queue.Queue()
 
 def int_or_str(text):
@@ -101,7 +106,10 @@ try:
                     text = result['text']
 
                     print(text)
-                    speak(text)
+                    # speak(text)
+
+                    if text == 'que horas são' or text == 'me diga as horas':
+                        speak(core.SystemInfo.get_time())
                     
 
 
