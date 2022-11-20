@@ -1,1 +1,4 @@
-SpeechRecognition
+Bibliotecas:
+    SpeechRecognition 
+    VOSK == 0.3.32+
+
