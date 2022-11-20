@@ -1,4 +1,6 @@
 Bibliotecas:
-    SpeechRecognition 
-    VOSK == 0.3.32+
+    SpeechRecognition == 3.8.1
+    VOSK == 0.3.44
+    PyAudio == 0.2.12
+    Pyttsx3 == 2.90
 
