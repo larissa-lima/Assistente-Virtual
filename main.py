@@ -6,7 +6,6 @@ import pyttsx3
 import json
 import core
 
-
 '''
 
 # Reconhecimento de voz Via Google:
@@ -36,7 +35,6 @@ def speak(text):
     engine.setProperty('voice', voices[-2].id)
     engine.say(text)
     engine.runAndWait()
-
 
 # Loop do reconhecimento de fala, retirado da documentação do VOSK + adaptações
 q = queue.Queue()
