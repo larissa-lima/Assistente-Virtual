@@ -5,6 +5,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Embedding
 from tensorflow.keras.utils import to_categorical
 
+# tensorflow não suporta Python 3.11
+
 data = yaml.safe_load(open('nlu\\train.yml', 'r', encoding='utf-8').read())
 
 inputs, outputs = [], []
