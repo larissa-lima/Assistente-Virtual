@@ -7,7 +7,6 @@ Este é um projeto que ainda não está atualizado. Segue abaixo o que contém n
 * **⌚ Horário atual:** "Que horas são?"<br>
 * **🧹 Abrir playlist de faxina :** "Qual a melhor música do mundo?"<br>
 * **⛅ Clima/tempo:** "Clima em Curitiba"<br>
-* **🔃 Tradutor para inglês e português:** "Traduzir para o inglês"<br>
 * **💤 Desligar computador em 1 hora, meia hora ou agora:** "Desligar computador em uma hora"<br>
 * **❌ Cancelar desligamento do computador:** "Cancelar desligamento"<br>
 * **🙋🏽‍♀️ Fechar a assistente:** "Fechar assistente"
