@@ -51,7 +51,7 @@ def clima(cidade):
 	retorno = response.json()
 	if retorno["cod"] == 200:
 	    valor = retorno["main"]
-	    current_temperature = valor["temp"]
+icurrent_temperature = valor["temp"]
 	    current_humidiy = valor["humidity"]
 	    tempo = retorno["weather"]
 	    weather_description = tempo[0]["description"]

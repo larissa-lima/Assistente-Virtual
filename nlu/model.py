@@ -15,7 +15,6 @@ for command in data['commands']:
     inputs.append(command['input'].lower())
     outputs.append('{}\{}'.format(command['entity'], command['action']))
 
-
 # Processar texto: palavras, caracteres, bytes, sub-palavras
 
 chars = set()
