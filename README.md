@@ -20,8 +20,8 @@ Este é um projeto que ainda não está atualizado. Segue abaixo o que contém n
 * [pyttsx3](https://pypi.org/project/pyttsx3/): sintetização de voz
 * [Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/): para leitura de páginas elementos em páginas web
 * [Translate](https://pypi.org/project/translate/)
-* [yaml] (https://pypi.org/project/yaml/): para linguagem natural
-* [tensorflow] (https://pypi.org/project/yaml/tensorflow): para aprendizagem da assistente 
+* [yaml](https://pypi.org/project/yaml/): para linguagem natural
+* [tensorflow](https://pypi.org/project/yaml/tensorflow): para aprendizagem da assistente 
 * Outras: os, sys, webbrowser, urllib.request, json, datetime, requests
 
 ### ** Principais bibliotecas**
