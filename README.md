@@ -1,4 +1,4 @@
-# LERIGOU - Assistente Pessoal com Python
+# Assistente Pessoal com Python
 
 Se você está aqui, significa que está procurando uma Assistente Virtual. 
 Este é um projeto que ainda não está atualizado. Segue abaixo o que contém no código:
