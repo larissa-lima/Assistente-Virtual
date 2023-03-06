@@ -23,7 +23,7 @@ Este é um projeto que ainda não está atualizado. Segue abaixo o que contém n
 * [tensorflow](https://pypi.org/project/yaml/tensorflow): para aprendizagem da assistente 
 * Outras: os, sys, webbrowser, urllib.request, json, datetime, requests
 
-### ** Principais bibliotecas **
+### Principais bibliotecas
 
 * gTTS: `pip install pyttsx3`
 * playsound: `pip install vosk`
