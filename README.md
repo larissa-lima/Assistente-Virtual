@@ -1,7 +1,7 @@
 # Assistente Pessoal com Python
 
 Se você está aqui, significa que está procurando uma Assistente Virtual. 
-Este é um projeto que ainda não está atualizado. Segue abaixo o que contém no código:
+Este é um projeto que ainda não está finalizado. Segue abaixo o que contém no código:
 
 ## Em Produção:
 * **⌚ Horário atual:** "Que horas são?"<br>
